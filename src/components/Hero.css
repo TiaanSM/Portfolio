@@ -1,0 +1,45 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img-container {
+    width: 100vw;
+    height: 480px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 5rem;
+}
+
+.hero-image {
+    width: 300px;
+    height: 370px;
+    border-radius: 1rem;
+    margin-inline: 2rem;
+    position: relative;
+}
+
+.img1 {
+    bottom: 3.4rem;
+}
+
+.img2 {
+    top: 3.4rem;
+}
+
+.img3 {
+    bottom: 3.4rem;
+}
+
+.img4 {
+    top: 3.4rem;
+}
+
+.img5 {
+    bottom: 3.4rem;
+}

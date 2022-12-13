@@ -1,9 +1,10 @@
 nav {
     width: 100vw;
-    height: 4rem;
+    height: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: transparent;
 }
 
 .nav-title {
@@ -23,6 +24,7 @@ nav {
     border: 1px solid black;
     border-radius: 1rem;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .demo-btn {
@@ -45,6 +47,7 @@ nav {
     border: 1px solid black;
     margin-left: 1rem;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .hamburger-bar-1 {
