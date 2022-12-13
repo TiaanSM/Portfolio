@@ -1,0 +1,82 @@
+nav {
+    width: 100vw;
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 2rem;
+    font-family: serif;
+    margin-left: 2rem
+}
+
+.nav-btn-container {
+    display: flex;
+    padding-left: 20rem;
+    margin-right: 2rem;
+}
+
+.login-btn {
+    padding: 0.5rem 1.5rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.demo-btn {
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    color: white;
+    background-color: black;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.hamburger-btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.hamburger-bar-1 {
+    width: 22px;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 2px;
+}
+
+.hamburger-bar-2 {
+    width: 22px;
+    height: 1px;
+    background-color: black;
+    margin-top: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    .login-btn {
+        display: none;
+    }
+    .demo-btn {
+        display: none;
+    }
+    .nav-title {
+        position: absolute;
+        left: 2rem;
+        padding: 0;
+        margin: 0;
+    }
+    .hamburger-btn {
+        position: absolute;
+        right: 2rem;
+        top: 0.8rem;
+    }
+}
