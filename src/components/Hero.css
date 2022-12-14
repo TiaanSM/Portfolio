@@ -43,3 +43,127 @@ header {
 .img5 {
     bottom: 3.4rem;
 }
+
+
+.hero-text-container {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+}
+
+.hero-title {
+    width: 80vw;
+    font-size: 9rem;
+    font-weight: 500;
+    text-align: right;
+    padding-inline: auto;
+}
+
+.text-tail {
+    position: relative;
+    left: 12rem;
+}
+
+.hero-cta-container {
+    position: absolute;
+    bottom: 0rem;
+    left: 6.5rem;
+}
+
+.hero-text-desc {
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    margin-bottom: 0.8rem;
+}
+
+.hero-cta {
+    padding: 0.7rem 1.1rem;
+    color: white;
+    background-color: black;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1115px) {
+    .hero-text-container {
+        bottom: 10rem;
+    }
+    .hero-title {
+        text-align: right;
+        padding-left: 1rem;
+        position: relative;
+        left: 7rem;
+    }
+    .text-tail {
+        left: 0;
+    }
+    .hero-cta-container {
+        left: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .img1, .img5 {
+        display: none;
+    }
+    .hero-title {
+        text-align: center;
+        width: 100vw;
+        padding: 0;
+        left: 0;
+        font-size: 7rem;
+        padding-inline: 1rem;
+    }
+    .hero-cta-container {
+        left: 50%;
+        transform: translateX(-150px);
+        text-align: center;
+        bottom: -11rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hero-title {
+        font-size: 5rem;
+    }
+    .hero-cta-container {
+        transform: translateX(-120px);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .hero-img-container {
+        height: auto;
+        justify-content: center;
+        flex-direction: column;
+        top: 5rem;
+    }
+    .img2 {
+        top: 0;
+        right: 4rem;
+        margin-bottom: 1rem;
+        width: 150px;
+        height: auto;
+    }
+    .img4 {
+        width: 150px;
+        height: auto;
+        top: 0;
+        left: 4rem;
+    }
+    .img3 {
+        bottom: 0;
+        left: 0rem;
+        margin-bottom: 1rem;
+        width: 150px;
+        height: auto;
+    }
+    .hero-title {
+        font-size: 4rem;
+    }
+    .hero-cta-container {
+        transform: translateX(-100px);
+    }
+}

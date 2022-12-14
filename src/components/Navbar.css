@@ -22,14 +22,14 @@ nav {
 .login-btn {
     padding: 0.5rem 1.5rem;
     border: 1px solid black;
-    border-radius: 1rem;
+    border-radius: 2rem;
     cursor: pointer;
     background-color: transparent;
 }
 
 .demo-btn {
     padding: 0.5rem 1.5rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
     color: white;
     background-color: black;
     margin-left: 1rem;
@@ -80,6 +80,6 @@ nav {
     .hamburger-btn {
         position: absolute;
         right: 2rem;
-        top: 0.8rem;
+        top: 1.3rem;
     }
 }
