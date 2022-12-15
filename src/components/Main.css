@@ -43,13 +43,16 @@ main {
     background-color: gray;
     margin-right: 1rem;
     border-radius: 1rem;
+    margin-left: 1rem;
 }
 
 .card-text-container {
     width: 35rem;
     height: 30rem;
     margin-left: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
+    position: relative;
+    bottom: 1rem;
 }
 
 .intro-header {
@@ -89,3 +92,64 @@ main {
     margin-top: 1rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px) {
+    .card-text-container {
+        bottom: 1.5rem;
+    }
+    .main-intro {
+        text-align: center;
+        right: 0;
+        padding:0 2rem;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+
+    .card-text-container {
+        padding: 1rem;
+    }
+    .intro-header {
+        margin-bottom: 1rem;
+    }
+    .intro-title {
+        font-size: 2.2rem;
+        margin-bottom: 1.5rem;
+    }
+    .intro-desc {
+        font-size: 1rem;
+    }
+    .intro-list > li {
+        font-size: 1.1rem;
+    }
+    .card-cta {
+        margin-top: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .main-card-container {
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .card-text-container {
+        height: auto;
+    }
+    .card-image {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .card-image {
+        height: 20rem;
+        margin-top: 1.5rem;
+    }
+    .main-title {
+        font-size: 3rem;
+    }
+    .main-desc {
+        font-size: 1.1rem;
+    }
+} 
