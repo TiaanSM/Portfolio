@@ -15,7 +15,7 @@ main {
 }
 
 .main-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     margin-bottom: 1rem;
 }
@@ -23,4 +23,69 @@ main {
 .main-desc {
     font-size: 1.1rem;
     font-family: sans-serif;
+}
+
+/* Card */
+.main-card-container {
+    width: 90vw;
+    height: 90vh;
+    background-color: #f2ebe0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+
+.card-image {
+    width: 35rem;
+    height: 30rem;
+    background-color: gray;
+    margin-right: 1rem;
+    border-radius: 1rem;
+}
+
+.card-text-container {
+    width: 35rem;
+    height: 30rem;
+    margin-left: 1rem;
+    padding: 1rem;
+}
+
+.intro-header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+}
+
+.intro-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.intro-desc {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-family: sans-serif;
+}
+
+.intro-list {
+    margin-left: 1rem;
+}
+
+.intro-list > li {
+    font-size: 1.1rem;
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+
+.card-cta {
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    background-color: #333;
+    color: white;
+    border: 1px solid #333;
+    margin-top: 1rem;
+    cursor: pointer;
 }
