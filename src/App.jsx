@@ -1,16 +1,16 @@
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Main from './components/Main';
+import Header from './Header';
+import Employees from './Employees';
+import Footer from './Footer';
+
 
 function App() {
-  // &Open
 
   return (
     <div className="App">
-       <Navbar />
-       <Hero />
-       <Main />
+      <Header />
+      <Employees />
+      <Footer />
     </div>
   )
 }
