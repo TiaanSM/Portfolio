@@ -1,0 +1,133 @@
+.header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+
+.boundContainer {
+    width: calc(100vw - 6rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 8rem;
+    border-bottom: 1px solid gray;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.textContainer {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.name {
+    width: 5rem;
+    font-family: sans-serif;
+    color: gray;
+}
+
+.desc {
+    font-family: sans-serif;
+    color: gray;
+}
+
+.contactBtn {
+    padding: 0.8rem 1.6rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 1px solid gray;
+    color: gray;
+    background-color: transparent;
+}
+
+.topTitle {
+    font-size: 13.6rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: -5px;
+}
+
+.letter {
+    color: gray;
+    transition: all 0.4s ease;
+}
+.divider {
+    color: gray;
+}
+
+.topTitle > .letter:nth-child(1):hover {
+    color: red;
+}
+.topTitle > .letter:nth-child(2):hover {
+    color: green;
+}
+.topTitle > .letter:nth-child(3):hover {
+    color: blue;
+}
+.topTitle > .letter:nth-child(4):hover {
+    color: whitesmoke;
+}
+.topTitle > .letter:nth-child(5):hover {
+    color: yellow;
+}
+.topTitle > .letter:nth-child(6):hover {
+    color: pink;
+}
+.topTitle > .letter:nth-child(7):hover {
+    color: orange;
+}
+.topTitle > .letter:nth-child(8):hover {
+    color: brown;
+}
+.topTitle > .letter:nth-child(9):hover {
+    color: lawngreen;
+}
+
+.titleEnd {
+    font-size: 13rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: -6px;
+}
+
+.titleEnd > .letter:nth-child(1):hover {
+    color: orangered;
+}
+.titleEnd > .letter:nth-child(2):hover {
+    color: wheat;
+}
+.titleEnd > .letter:nth-child(3):hover {
+    color: khaki;
+}
+.titleEnd > .letter:nth-child(4):hover {
+    color: indigo;
+}
+.titleEnd > .letter:nth-child(5):hover {
+    color: aqua;
+}
+.titleEnd > .letter:nth-child(6):hover {
+    color: cadetblue;
+}
+.titleEnd > .letter:nth-child(7):hover {
+    color: burlywood;
+}
+.titleEnd > .letter:nth-child(8):hover {
+    color: maroon;
+}
+.titleEnd > .letter:nth-child(9):hover {
+    color: mediumspringgreen;
+}
