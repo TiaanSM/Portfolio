@@ -1,0 +1,153 @@
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: gray;
+    border-radius: 3rem 3rem 0 0;
+}
+
+.textContainer {
+    width: calc(100vw - 5rem);
+    height: 100vh;
+}
+
+.topText {
+    width: 100%;
+    display: inline-block;
+    color: white;
+    font-size: 6rem;
+    font-size: clamp(6rem, 0.1860465116279073rem + 18.6046511627907vw, 16rem);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.bottomText {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.dates {
+    position: relative;
+    color: white;
+    top: clamp(5rem, -0.8139534883720927rem + 18.6046511627907vw, 15rem);
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.text {
+    font-size: 6rem;
+    font-size: clamp(6rem, 0.1860465116279073rem + 18.6046511627907vw, 16rem);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+
+/*/ Work Card /*/
+
+.section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(92, 6, 6);
+}
+
+.mainContainer {
+    width: calc(100vw - 5rem);
+    height: 100%;
+}
+
+.infoContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.infoText {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.infoNumber {
+    color: white;
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.projectContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-bottom: 5rem;
+}
+
+.projectTextContainer {
+    display: flex;
+    flex-direction: column;
+    padding-top: clamp(7rem, 1.7674418604651168rem + 16.74418604651163vw, 16rem);
+}
+
+.projectRoles {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    padding-left: 0.5rem;
+}
+
+.projectName {
+    font-size: 3rem;
+    font-size: clamp(3rem, -0.4883720930232558rem + 11.162790697674419vw, 9rem);
+    line-height: clamp(3rem, -0.4883720930232558rem + 11.162790697674419vw, 9rem);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.imageContainer {
+    width: 32vw;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border-radius: 1rem;
+}
+
+.projectImage {
+    width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .infoContainer {
+        padding-bottom: 10rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .mainContainer {
+        width: calc(100vw - 3rem);
+    }
+
+    .infoContainer {
+        padding-bottom: 3rem;
+    }
+
+    .projectContainer {
+        justify-content: center;
+        flex-direction: column;
+    }
+    .projectTextContainer {
+        width: 100%;
+        padding-bottom: 1.5rem;
+        padding-top: 5rem;
+    }
+    .imageContainer {
+        width: 100%;
+        aspect-ratio: 2/1.5;
+    }
+}

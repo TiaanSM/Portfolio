@@ -1,26 +1,28 @@
-import React from 'react'
+import styles from './Work.module.css'
 
-const WorkCard = () => {
+const WorkCard = (props) => {
   return (
-    <div>
-        <div>
-            <div>
-                <span>SELECTED</span>
-                <span>01 / 03</span>
-                <span>WORKS</span>
+    <section className={styles.section}>
+        <div className={styles.mainContainer}> 
+
+            <div className={styles.infoContainer}>
+                <span className={styles.infoText}>SELECTED</span>
+                <span className={styles.infoNumber}>{props.projectNumber}</span>
+                <span className={styles.infoText}>WORKS</span>
             </div>
-            <div>
-                <div>
-                    <span>UX / UI / DESIGN SYSTEM</span>
-                    <span>NAME</span>
+
+            <div className={styles.projectContainer}>
+                <div className={styles.projectTextContainer}>
+                    <span className={styles.projectRoles}>{props.projectTech}</span>
+                    <span className={styles.projectName}>{props.project}</span>
                 </div>
-                <div>
-                    <img src="" alt="" />
-                    <span>01</span>
+                <div className={styles.imageContainer}>
+                    <img src="" alt="website-project-landing-page" className={styles.projectImage} />
                 </div>
             </div>
+
         </div>
-    </div>
+    </section>
   )
 }
 
