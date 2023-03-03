@@ -1,23 +1,22 @@
-import React from 'react'
+import styles from './About.module.css'
 
 const About = () => {
   return (
-    <section>
+    <section className={styles.section}>
 
-        <div>
-            <span>A LITTLE MORE ABOUT ME</span>
-            <p>
+        <div className={styles.container}>
+            <span className={styles.heading}>A LITTLE MORE ABOUT ME</span>
+            <p className={styles.mainText}>
                 BONJOUR ! I'M ELIOT, INDEPENDANT DIGITAL DESIGNER,
                 AND WEBFLOW EXPERT, LIVING ON PLANET EARTH SINCE 1997
             </p>
         </div>
 
-        <div>
-            <p>
+        <div className={styles.container}>
+            <p className={styles.text}>
                 I HAVE +5 YEARS OF XP. IN DESIGNING DIGITAL PRODUCTS
                 WITH A STRONG FOCUS ON USER INTERFACE
             </p>
-            <span>LEARN MORE</span>
         </div>
 
     </section>

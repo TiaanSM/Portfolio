@@ -1,0 +1,53 @@
+.footer {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.container {
+    width: calc(100vw - 5rem);
+    height: 100%;
+}
+
+.emailContainer {
+    width: 100vw;
+    height: 50vh;
+}
+
+.topContainer {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+}
+
+.topText {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+.title {
+    font-size: 14rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    overflow: hidden;
+}
+
+.bottomContainer {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 2rem;
+}
+
+.bottomText {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+}

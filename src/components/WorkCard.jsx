@@ -1,8 +1,20 @@
 import styles from './Work.module.css'
 
 const WorkCard = (props) => {
+
+    const sectionStyles = {
+        width: '100vw',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column',
+        backgroundColor: props.bgColor,
+        borderBottom: '1px solid white'
+    }
+
   return (
-    <section className={styles.section}>
+    <section style={sectionStyles}>
+
         <div className={styles.mainContainer}> 
 
             <div className={styles.infoContainer}>

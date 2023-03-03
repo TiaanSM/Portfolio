@@ -1,0 +1,12 @@
+.section {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: calc(100vw - 5rem);
+    height: 100vh;
+}

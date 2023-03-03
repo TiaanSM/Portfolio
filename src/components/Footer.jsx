@@ -1,23 +1,23 @@
-import React from 'react'
+import styles from './Footer.module.css'
 
 const Footer = () => {
   return (
-    <footer>
-        <div>
+    <footer className={styles.footer}>
+        <div className={styles.container}>
 
-            <div></div>
+            <div className={styles.emailContainer}></div>
 
-            <div>
-                <div>
-                    <span>FRONT END DEVELOPER</span>
-                    <span>PORTFOLIO 2023</span>
+            <div className={styles.textContainer}>
+                <div  className={styles.topContainer}>
+                    <span className={styles.topText}>FRONTEND DEVELOPER</span>
+                    <span className={styles.topText}>PORTFOLIO 2023</span>
                 </div>
 
-                <span>TIAAN MCLEOD</span>
+                <span className={styles.title}>TIAAN MCLEOD</span>
                 
-                <div>
-                    <span>&copy; TSM 2023</span>
-                    <span>BACK TO TOP</span>
+                <div className={styles.bottomContainer}>
+                    <span className={styles.bottomText}>&copy; TSM 2023</span>
+                    <span className={styles.bottomText}>BACK TO TOP</span>
                 </div>
             </div>
 
