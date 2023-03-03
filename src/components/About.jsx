@@ -7,7 +7,7 @@ const About = () => {
         <div className={styles.container}>
             <span className={styles.heading}>A LITTLE MORE ABOUT ME</span>
             <p className={styles.mainText}>
-                BONJOUR ! I'M ELIOT, INDEPENDANT DIGITAL DESIGNER,
+                HELLO ! I'M TIAAN, INDEPENDANT DIGITAL DESIGNER,
                 AND WEBFLOW EXPERT, LIVING ON PLANET EARTH SINCE 1997
             </p>
         </div>

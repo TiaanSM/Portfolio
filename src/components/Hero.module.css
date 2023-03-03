@@ -25,6 +25,7 @@
     font-size: 8rem;
     font-size: clamp(8rem, 2.1860465116279073rem + 18.6046511627907vw, 18rem);
     line-height: clamp(7rem, 1.1860465116279073rem + 18.6046511627907vw, 17rem);
+    color: #1d0530;
 }
 
 .descContainer {
@@ -44,4 +45,11 @@
 
 .desc1, .desc2 {
     padding-bottom: 0.7rem;
+}
+
+@media (max-width: 600px) {
+    
+    .container {
+        width: calc(100vw - 3rem);
+    }
 }

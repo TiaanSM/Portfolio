@@ -5,7 +5,7 @@
     align-items: center;
     flex-direction: column;
     overflow: hidden;
-    background-color: gray;
+    background-color: #1d0530;
     border-radius: 3rem 3rem 0 0;
 }
 
@@ -118,7 +118,39 @@
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 900px) {
+    .textContainer {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .textContainer {
+        width: calc(100vw - 3rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bottomText {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding-top: 0rem;
+    }
+
+    .topText, .text, .dates {
+        text-align: center;
+    }
+
+    .dates {
+        position: static;
+        padding-top: 3rem;
+    }
+
     .mainContainer {
         width: calc(100vw - 3rem);
     }

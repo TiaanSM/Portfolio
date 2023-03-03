@@ -4,8 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: bisque;
+    background-color: #1d0530;
     overflow: hidden;
+    border-radius: 2.5rem 2.5rem 0 0;
 }
 
 .container {
@@ -14,8 +15,37 @@
 }
 
 .emailContainer {
-    width: 100vw;
-    height: 50vh;
+    width: calc(100vw - 8rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+.email {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 3.8rem;
+    font-size: clamp(3.8rem, 2.2302325581395346rem + 5.023255813953488vw, 6.5rem);
+    font-weight: 300;
+    padding-top: 2rem;
+}
+
+.emailLink {
+    text-decoration: underline;
+}
+
+.codeLink {
+    width: 50%;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: right;
+    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 0.8930232558139536rem + 1.3023255813953487vw, 2rem);
+    padding-top: 2.8rem;
+    text-decoration: underline;
+}
+
+.textContainer {
+    padding-top: 3rem;
 }
 
 .topContainer {
@@ -24,18 +54,20 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    top: 2rem;
+    top: clamp(0.4rem, -0.530232558139535rem + 2.9767441860465116vw, 2rem);
 }
 
 .topText {
     font-family: 'Noto Sans', sans-serif;
-    color: rgb(104, 104, 104);
+    color: rgb(182, 182, 182);
 }
 
 .title {
-    font-size: 14rem;
+    font-size: 4.6rem;
+    font-size: clamp(4.6rem, -0.8651162790697677rem + 17.488372093023255vw, 14rem);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     overflow: hidden;
+    color: white;
 }
 
 .bottomContainer {
@@ -44,10 +76,49 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    bottom: 2rem;
+    bottom: clamp(0.4rem, -0.530232558139535rem + 2.9767441860465116vw, 2rem);
 }
 
 .bottomText {
     font-family: 'Noto Sans', sans-serif;
-    color: black;
+    color: rgb(182, 182, 182);
+}
+
+@media (max-width: 600px) {
+
+    .footer {
+        height: auto;
+    }
+
+    .container {
+        width: calc(100vw - 3rem);
+    }
+
+    .emailContainer {
+        width: calc(100vw - 3rem);
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .email {
+        text-align: center;
+    }
+
+    .codeLink {
+        width: 100%;
+        text-align: center;
+    }
+
+    .textContainer {
+        padding-top: 10rem;
+        padding-bottom: 2rem;
+    }
+
+    .title {
+        letter-spacing: 2px;
+    }
+
+    .topText, .bottomText {
+        font-size: 13px;
+    }
 }

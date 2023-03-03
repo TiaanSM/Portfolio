@@ -22,21 +22,21 @@ const Work = () => {
               projectNumber="01 / 03" 
               projectTech="JAVASCRIPT / REACT / CSS"
               project="STUDIO ZAA"
-              bgColor="darkgreen"
+              bgColor="#3FA796"
             />
 
             <WorkCard 
               projectNumber="02 / 03" 
               projectTech="JAVASCRIPT / REACT / CSS"
               project="LIGHTHOUSE"
-              bgColor="orangered"
+              bgColor="#FEC260"
             />
 
             <WorkCard 
               projectNumber="03 / 03" 
               projectTech="JAVASCRIPT / REACT / CSS"
               project="JAKES BBQ"
-              bgColor="royalblue"
+              bgColor="#A10035"
             />
 
         </div>
