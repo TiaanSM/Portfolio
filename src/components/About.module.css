@@ -32,3 +32,15 @@
         padding-bottom: 12rem;
     }
 }
+
+@media (max-width: 500px) {
+    .container {
+        padding-bottom: 7rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .mainText, .text {
+        font-size: 1.8rem;
+    }
+}

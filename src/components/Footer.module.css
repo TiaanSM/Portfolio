@@ -122,3 +122,36 @@
         font-size: 13px;
     }
 }
+
+@media (max-width: 500px) {
+
+    .footer {
+        border-radius: 1.5rem 1.5rem 0 0;
+    }
+
+    .email {
+        font-size: 2.5rem;
+        font-size: clamp(2.5rem, 0.5500000000000003rem + 10.399999999999999vw, 3.8rem);
+    }
+
+    .topContainer {
+        width: 100%;
+        top: -1rem;
+        text-align: left;
+        justify-content: center;
+        align-items: end;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 4rem;
+        font-size: clamp(4rem, 2.5rem + 8vw, 5rem);
+        letter-spacing: 0px;
+        line-height: 4rem;
+    }
+
+    .bottomContainer {
+        bottom: 0rem;
+        padding-top: 0.5rem;
+    }
+}

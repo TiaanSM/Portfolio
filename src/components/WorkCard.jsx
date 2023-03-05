@@ -29,7 +29,7 @@ const WorkCard = (props) => {
                     <span className={styles.projectName}>{props.project}</span>
                 </div>
                 <div className={styles.imageContainer}>
-                    <img src="" alt="website-project-landing-page" className={styles.projectImage} />
+                    <img src={props.image} alt="website-project-landing-page" className={styles.projectImage} />
                 </div>
             </div>
 

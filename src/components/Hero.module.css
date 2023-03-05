@@ -53,3 +53,25 @@
         width: calc(100vw - 3rem);
     }
 }
+
+@media (max-width: 500px) {
+
+    .container {
+        padding-top: 10rem;
+    }
+
+    .titleTop, .titleBottom {
+        font-size: 4.5rem;
+        font-size: clamp(4.5rem, -0.7500000000000009rem + 28.000000000000004vw, 8rem);
+        line-height: clamp(4rem, -0.5rem + 24vw, 7rem);
+    }
+
+    .desc1, .desc2, .desc3 {
+        font-size: 1.1rem;
+        font-size: clamp(1.1rem, 0.5000000000000002rem + 3.1999999999999993vw, 1.5rem);
+    }
+
+    .desc1, .desc2 {
+        padding-bottom: 1.5rem;
+    }
+}
