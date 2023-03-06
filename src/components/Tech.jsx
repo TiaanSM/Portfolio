@@ -23,7 +23,7 @@ const Tech = () => {
 
                 <span className={styles.item}>
                     <FaHtml5 color="white" fontSize="clamp(2rem, 0.8372093023255813rem + 3.7209302325581395vw, 4rem)"/>
-                    <p className={styles.itemDesc}>SEMANTIC HTML</p>
+                    <p className={styles.itemDesc}>HTML</p>
                 </span>
 
                 <span className={styles.item}>

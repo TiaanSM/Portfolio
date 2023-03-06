@@ -6,7 +6,7 @@ const Footer = () => {
         <div className={styles.container}>
 
             <div className={styles.emailContainer}>
-                <h4 className={styles.email}>GET IN TOUCH <span className={styles.emailLink}>HERE!</span></h4>
+                <h4 className={styles.email}>GET IN TOUCH <span className={styles.emailLink}>@HERE</span></h4>
                 <div className={styles.codeLink}>
                     GITHUB, CODE AND DETAILED README FOR EACH PROJECT HERE.
                 </div>

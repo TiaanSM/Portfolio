@@ -66,6 +66,10 @@
         line-height: clamp(4rem, -0.5rem + 24vw, 7rem);
     }
 
+    .descContainer {
+        padding-bottom: 8rem;
+    }
+
     .desc1, .desc2, .desc3 {
         font-size: 1.1rem;
         font-size: clamp(1.1rem, 0.5000000000000002rem + 3.1999999999999993vw, 1.5rem);

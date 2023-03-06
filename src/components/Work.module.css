@@ -75,7 +75,7 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:last baseline;
     position: relative;
     padding-bottom: 5rem;
 }
@@ -102,8 +102,8 @@
 }
 
 .imageContainer {
-    width: 32vw;
-    aspect-ratio: 1/1;
+    width: 40vw;
+    aspect-ratio: 1/0.48;
     background-color: black;
     border-radius: 1rem;
     overflow: hidden;
@@ -112,7 +112,6 @@
 .projectImage {
     width: 100%;
     border-radius: 1rem;
-    object-fit: cover;
 }
 
 @media (max-width: 1100px) {
@@ -173,7 +172,6 @@
     }
     .imageContainer {
         width: 100%;
-        aspect-ratio: 2/1.5;
     }
 }
 
@@ -210,9 +208,5 @@
 
     .projectRoles {
         font-size: 14px;
-    }
-
-    .imageContainer {
-        aspect-ratio: 1/1.3;
     }
 }
