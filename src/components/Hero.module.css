@@ -33,7 +33,7 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    padding-bottom: 5rem;
+    padding-bottom: 15rem;
 }
 
 .desc1, .desc2, .desc3 {
