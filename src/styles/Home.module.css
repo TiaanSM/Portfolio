@@ -1,0 +1,58 @@
+
+
+.header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: calc(100vw - 5rem);
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.headingContainer {
+    width: 30%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+
+.heading {
+    font-size: 1.3rem;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+}
+
+.desc {
+    font-family: 'Urbanist', sans-serif;
+}
+
+.section {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.link {
+    font-size: 9.5rem;
+    text-decoration: none;
+    line-height: 11rem;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    transition: all 0.5s ease;
+    font-weight: 300;
+}
+
+.link:hover {
+    font-weight: 700;
+}
