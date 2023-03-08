@@ -1,5 +1,7 @@
 import styles from '../styles/Components.module.css'
 
+import { Link } from 'react-router-dom';
+
 const Navbar = (props) => {
 
   const copyrightStyles = {
@@ -45,7 +47,7 @@ const linkStyles = {
     <nav className={styles.navbar}>
         <span style={copyrightStyles}>&copy; / 2023</span>
         <div style={lineStyles}></div>
-        <a href="" style={linkStyles}>{props.link}</a>
+        <a href={props.href} style={linkStyles}>{props.link}</a>
     </nav>
 
   )

@@ -2,12 +2,16 @@ import styles from '../styles/Home.module.css'
 
 import Navbar from '../components/Navbar'
 
+import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     
     
     <header className={styles.header}>
-      <Navbar link="GITHUB" textColor="black" />
+
+      <Navbar link="GITHUB" href="https://github.com" textColor="black" />
+      
       <div className={styles.container}>
 
         <div className={styles.headingContainer}>
@@ -17,9 +21,9 @@ const Home = () => {
         </div>
 
         <section className={styles.section}>
-            <a href="" className={styles.link}>WORK</a>
-            <a href="" className={styles.link}>ABOUT</a>
-            <a href="" className={styles.link}>CONTACT</a>
+            <Link to="/work" className={styles.link}>WORK</Link>
+            <Link to="/about" className={styles.link}>ABOUT</Link>
+            <Link to="/contact" className={styles.link}>CONTACT</Link>
         </section>
 
     </div>

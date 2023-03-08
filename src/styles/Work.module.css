@@ -23,13 +23,13 @@
     font-size: 1.2rem;
     font-weight: 500;
     padding-bottom: 0.7rem;
-    color: white;
+    color: #ecead3;
 }
 
 .desc {
     font-family: 'Niramit', sans-serif;
     line-height: 1.3rem;   
-    color: white;
+    color: #ecead3;
 }
 
 .desc:nth-child(3) {
@@ -43,6 +43,9 @@
     padding-top: 10rem;
 }
 
+.project {
+    padding-bottom: 2rem;
+}
 
 .projectName {
     font-family: 'Montserrat Alternates', sans-serif;
@@ -50,8 +53,13 @@
     font-weight: 600;
     font-size: 5rem;
     text-decoration: none;
+    line-height: 5rem;
 }
 
 .projectRoles {
     color: #ecead3;
+    font-family: 'Niramit', sans-serif;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 0.8rem;
 }

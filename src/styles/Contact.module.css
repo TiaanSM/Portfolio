@@ -1,0 +1,50 @@
+.section {
+    width: 100vw;
+    height: 100vh;
+    background-color: #1a1818;
+    padding-left: 12rem;
+}
+
+.title {
+    font-size: 11rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ecead3;
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.formText {
+    width: 30vw;
+    padding-left: 1rem;
+    color: #ecead3;
+    font-family: 'Niramit', sans-serif;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.formText > a {
+    color: #ecead3;
+}
+
+.emailText {
+    padding-left: 1rem;
+    color: #ecead3;
+    font-family: 'Niramit', sans-serif;
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.emailText > a {
+    color: #ecead3;
+}
+
+.linksText {
+    display: block;
+    padding-left: 1rem;
+    color: #ecead3;
+    font-family: 'Niramit', sans-serif;
+    font-size: 1.2rem;
+}
+
+.linksText > a {
+    color: #ecead3;
+}

@@ -2,10 +2,14 @@ import styles from '../styles/Work.module.css'
 
 import Navbar from '../components/Navbar'
 
+import { Link } from 'react-router-dom';
+
 const Work = () => {
   return (
     <section className={styles.section}>
-        <Navbar link="HOME" textColor="white" />
+
+        <Navbar link="HOME" href="/" textColor="#ecead3" />
+
         <div className={styles.descContainer}>
             <h2 className={styles.heading}>WORK</h2>
             <p className={styles.desc}>
@@ -21,18 +25,18 @@ const Work = () => {
         <div className={styles.projectContainer}>
 
             <div className={styles.project}>
-                <a href="" className={styles.projectName}>STUDIO ZAA</a>
+                <a href="" target="_blank" className={styles.projectName}>STUDIO ZAA</a>
                 <p className={styles.projectRoles}>- Website development.</p>
             </div>
 
             <div className={styles.project}>
-                <a href="" className={styles.projectName}>JAKES BAR-B-Q</a>
+                <a href="" target="_blank" className={styles.projectName}>JAKES BAR-B-Q</a>
                 <p className={styles.projectRoles}>- Website development.</p>
             </div>
 
             <div className={styles.project}>
-                <a href="" className={styles.projectName}>LIGHTHOUSE</a>
-                <p className={styles.projectRoles}>- Website development.</p>
+                <a href="" target="_blank" className={styles.projectName}>LIGHTHOUSE</a>
+                <p className={styles.projectRoles}>- Landing page development.</p>
             </div>
 
         </div>

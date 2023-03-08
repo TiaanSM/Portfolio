@@ -1,0 +1,57 @@
+.main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ecead3;
+}
+
+.container {
+    margin-right: 10rem;
+    width: 55vw;
+    padding-top: 5rem;
+}
+.container:nth-child(4){
+    padding-bottom: 5rem;
+}
+
+.title {
+    font-size: 11rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.subHeading {
+    font-size: 3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 3rem;
+    padding-left: 1rem;
+    font-weight: 500;
+    padding-bottom: 3rem;
+}
+
+.desc {
+    padding: 0.5rem 0 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: 'Niramit', sans-serif;
+    line-height: 1.3rem;
+}
+
+.contentTitle {
+    font-size: 1.5rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 500;
+    padding-inline: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skillList {
+    padding-left: 1rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 15rem 15rem;
+}
+
+.skill {
+    font-family: 'Niramit', sans-serif;
+}
