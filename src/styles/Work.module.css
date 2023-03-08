@@ -1,0 +1,57 @@
+.section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1818;
+}
+
+.descContainer {
+    width: 40vw;
+    height: 100%;
+    padding-left: 10rem;
+    padding-right: 5rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.heading {
+    font-family: 'Niramit', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-bottom: 0.7rem;
+    color: white;
+}
+
+.desc {
+    font-family: 'Niramit', sans-serif;
+    line-height: 1.3rem;   
+    color: white;
+}
+
+.desc:nth-child(3) {
+    padding-top: 1rem;
+}
+
+
+.projectContainer {
+    width: 55vw;
+    height: 100%;
+    padding-top: 10rem;
+}
+
+
+.projectName {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #ecead3;
+    font-weight: 600;
+    font-size: 5rem;
+    text-decoration: none;
+}
+
+.projectRoles {
+    color: #ecead3;
+}

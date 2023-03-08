@@ -1,11 +1,10 @@
-
-
 .header {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ecead3;
 }
 
 .container {
@@ -14,30 +13,37 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
 }
 
 .headingContainer {
-    width: 30%;
+    width: 33%;
     height: 90vh;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+    padding-inline: 2.3rem;
 }
 
 .heading {
-    font-size: 1.3rem;
-    font-family: 'Urbanist', sans-serif;
-    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: 'Niramit', sans-serif;
+    font-weight: 500;
+    padding-bottom: 1rem;
 }
 
 .desc {
-    font-family: 'Urbanist', sans-serif;
+    font-family: 'Niramit', sans-serif;
+    color: black;
+    line-height: 1.5rem;
+}
+
+.desc:nth-child(2) {
+    padding-bottom: 0.5rem;
 }
 
 .section {
-    width: 50vw;
+    width: 55%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -55,4 +61,6 @@
 
 .link:hover {
     font-weight: 700;
+    color: transparent;
+    -webkit-text-stroke: 1px black;
 }

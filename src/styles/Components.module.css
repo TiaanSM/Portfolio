@@ -1,0 +1,43 @@
+/*/ NAVBAR /*/
+
+.navbar {
+    width: 6rem;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+}
+
+.copyright {
+    width: 4.5rem;
+    display: block;
+    transform: rotate(-90deg);
+    position: absolute;
+    bottom: 6rem;
+    left: 0.5rem;
+    font-family: 'Niramit', sans-serif;
+    line-height: 0.8rem;
+    font-size: 14px;
+}
+
+.line {
+    display: block;
+    width: 1px;
+    height: 7rem;
+    background-color: black;
+    position: absolute;
+    top: 40vh;
+    left: 2.5rem;
+}
+
+.link {
+    display: block;
+    transform: rotate(-90deg);
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    line-height: 0.8rem;
+    font-family: 'Niramit', sans-serif;
+    font-size: 14px;
+}
