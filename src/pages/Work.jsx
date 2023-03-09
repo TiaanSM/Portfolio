@@ -13,12 +13,13 @@ const Work = () => {
         <div className={styles.descContainer}>
             <h2 className={styles.heading}>WORK</h2>
             <p className={styles.desc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Fugit recusandae voluptate vel. Maxime ad ipsa ex facilis nulla cupiditate alias!
+                This is a showcase of projects that I have recently completed, they are 
+                examples of what I am able to do in the timeframe I set to complete them.
             </p>
             <p className={styles.desc}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, fuga nesciunt sint autem at 
-                dignissimos iste repellat sit exercitationem perspiciatis.
+                The world of frontend development has grown at an extremely rapid rate over the
+                last few years and my aim had been to evolve with it. I'm learning and gaining new skills
+                every day.
             </p>
         </div>
 

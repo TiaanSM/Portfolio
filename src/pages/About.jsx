@@ -14,9 +14,24 @@ const About = () => {
         <div className={styles.container}>
           <h2 className={styles.title}>About</h2>
           <p className={styles.subHeading}>Im Tiaan. A frontend developer and problem solver.</p>
-          <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni eius molestiae consequatur eaque voluptate illum harum? Officiis libero natus minima rerum perspiciatis qui consectetur! Maiores voluptatem repellat adipisci at sapiente?</p>
-          <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur illum rem sunt delectus voluptatum beatae non, similique rerum temporibus nam, ea sed laudantium molestias unde molestiae. Saepe officia aliquam nisi.</p>
-          <p className={styles.desc}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ea odit eligendi, porro vero quos voluptatem doloremque illo quod aperiam facilis quam laborum corporis fugit id delectus cum alias aspernatur!</p>
+
+          <p className={styles.desc}>
+            The moment I fell in love with frontend development was when I discovered the Awwwards websites. 
+            Their creative designs, user-friendly interfaces, and stunning animations captured my 
+            attention and sparked a passion for developing websites that are both visually appealing 
+            and highly functional. My projects design were inspired by websites from awwwards.
+          </p>
+
+          <p className={styles.desc}>
+            I always strive to learn and improve and my goal is to become the best at what I do.
+            I am looking for an opportunity to achieve this goal by learning from more experienced teams
+            and by teaching others what I know, which is of course the best way to learn.
+          </p>
+
+          <p className={styles.desc}>
+            I believe that with my current experience I can effectivly work toghether with others to create 
+            amazing webistes.
+          </p>
         </div>
 
         <div className={styles.container}>
