@@ -10,8 +10,8 @@
 .descContainer {
     width: 40vw;
     height: 100%;
-    padding-left: 10rem;
-    padding-right: 5rem;
+    padding-left: clamp(5rem, -1.1475409836065573rem + 13.114754098360656vw, 10rem);
+    padding-right: clamp(1.2rem, -3.472131147540983rem + 9.967213114754097vw, 5rem);
     padding-bottom: 4rem;
     display: flex;
     justify-content: flex-end;
@@ -36,11 +36,11 @@
     padding-top: 1rem;
 }
 
-
 .projectContainer {
     width: 55vw;
     height: 100%;
-    padding-top: 10rem;
+    padding-top: clamp(3rem, -5.60655737704918rem + 18.360655737704917vw, 10rem);
+    padding-left: 1rem;
 }
 
 .project {
@@ -51,9 +51,16 @@
     font-family: 'Montserrat Alternates', sans-serif;
     color: #ecead3;
     font-weight: 600;
-    font-size: 5rem;
+    font-size: 3rem;
+    font-size: clamp(3rem, 0.540983606557377rem + 5.245901639344262vw, 5rem);
     text-decoration: none;
-    line-height: 5rem;
+    line-height: clamp(3rem, 0.540983606557377rem + 5.245901639344262vw, 5rem);
+    transition: all 1s ease;
+}
+
+.projectName:hover {
+    -webkit-text-stroke: 1px #ecead3;
+    color: transparent;
 }
 
 .projectRoles {
@@ -62,4 +69,34 @@
     font-weight: 200;
     font-size: 1rem;
     line-height: 0.8rem;
+}
+
+@media (max-width: 800px) {
+
+    .section {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .descContainer {
+        width: 100vw;
+        padding-top: 12rem;
+        padding-inline: clamp(1.2rem, -1.0799999999999998rem + 12.16vw, 5rem);
+    }
+
+    .projectContainer {
+        width: 100vw;
+        padding-inline: clamp(1.2rem, -1.0799999999999998rem + 12.16vw, 5rem);
+        padding-bottom: 1rem;
+    }
+
+    .projectName {
+        font-size: 1.9rem;
+        font-size: clamp(1.9rem, 0.05999999999999983rem + 9.280000000000001vw, 4.7rem);
+        line-height: clamp(2.5rem, 1rem + 8vw, 5rem);
+    }
+
+    .projectRoles {
+        font-size: 14px;
+    }
 }

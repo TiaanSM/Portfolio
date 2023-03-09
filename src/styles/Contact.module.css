@@ -6,7 +6,8 @@
 }
 
 .title {
-    font-size: 11rem;
+    font-size: 8rem;
+    font-size: clamp(8rem, 4.311475409836065rem + 7.868852459016392vw, 11rem);
     font-family: 'Montserrat Alternates', sans-serif;
     color: #ecead3;
     padding-top: 7rem;
@@ -47,4 +48,33 @@
 
 .linksText > a {
     color: #ecead3;
+}
+
+@media (max-width: 900px) {
+
+    .formText {
+        width: 50vw;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .section {
+        padding-left: clamp(1.2rem, -1.3800000000000001rem + 13.76vw, 5.5rem);
+    }
+
+    .formText {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 4rem;
+        font-size: clamp(4rem, 1.6rem + 12.8vw, 8rem);
+    }
+
+    .formText, .emailText, .linksText {
+        padding-left: 0.5rem;
+    }
 }

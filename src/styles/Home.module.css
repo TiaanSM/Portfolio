@@ -21,7 +21,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-inline: 2.3rem;
 }
 
@@ -44,18 +44,20 @@
 
 .section {
     width: 55%;
+    height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
 }
 
 .link {
-    font-size: 9.5rem;
+    font-size: 5rem;
+    font-size: clamp(5rem, -0.5327868852459021rem + 11.80327868852459vw, 9.5rem);
     text-decoration: none;
-    line-height: 11rem;
+    line-height: clamp(6rem, -0.14754098360655732rem + 13.114754098360656vw, 11rem);
     color: black;
     font-family: 'Montserrat Alternates', sans-serif;
-    transition: all 0.5s ease;
+    transition: all 0.8s ease;
     font-weight: 300;
 }
 
@@ -63,4 +65,49 @@
     font-weight: 700;
     color: transparent;
     -webkit-text-stroke: 1px black;
+}
+
+@media (max-width: 850px) {
+
+    .headingContainer {
+        padding-inline: 1rem;
+    }
+
+    .section {
+        padding-left: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        height: auto;
+    }
+
+    .container {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .headingContainer {
+        width: 100%;
+        height: auto;
+        padding-left: clamp(1.2rem, -0.48rem + 8.959999999999999vw, 4rem);
+        padding-right: 1.2rem;
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+
+    .section {
+        width: 100vw;
+        padding-left: clamp(1.2rem, -0.48rem + 8.959999999999999vw, 4rem);
+        overflow: hidden;
+    }
+
+    .link {
+        font-size: 3rem;
+        font-size: clamp(3rem, 0.2999999999999998rem + 14.400000000000002vw, 7.5rem);
+        line-height: clamp(3.5rem, 0.7999999999999998rem + 14.400000000000002vw, 8rem);
+        font-weight: 500;
+    }
 }

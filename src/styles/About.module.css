@@ -17,14 +17,16 @@
 }
 
 .title {
-    font-size: 11rem;
+    font-size: 5rem;
+    font-size: clamp(5rem, 1.4rem + 19.2vw, 11rem);
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .subHeading {
-    font-size: 3rem;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 0.6rem + 4.8vw, 3rem);
     font-family: 'Montserrat Alternates', sans-serif;
-    line-height: 3rem;
+    line-height: clamp(1.5rem, 0.6rem + 4.8vw, 3rem);
     padding-left: 1rem;
     font-weight: 500;
     padding-bottom: 3rem;
@@ -54,4 +56,41 @@
 
 .skill {
     font-family: 'Niramit', sans-serif;
+}
+
+@media (max-width: 800px) {
+
+    .container {
+        width: 80vw;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 100vw;
+        padding-inline: clamp(0.7rem, -1.5999999999999999rem + 12.266666666666666vw, 3rem);
+    }
+
+    .title {
+        font-size: 4rem;
+        padding-top: 3rem;
+    }
+
+    .subHeading {
+        font-size: 1.3rem;
+    }
+
+    .subHeading, .contentTitle, .skillList {
+        padding-left: 0.5rem;
+    }
+
+    .desc {
+        padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    }
+
+    .skillList {
+        grid-template-columns: 1fr;
+    }
 }
