@@ -1,15 +1,35 @@
 import styles from '../styles/Home.module.css'
 
 import Navbar from '../components/Navbar'
+import PageTransition from '../components/PageTransition';
 
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 const Home = () => {
+
+  const [playAnimation, setPlayAnimation] = useState(false)
+  
+  useEffect(() => {
+
+    const onPageLoad = () => {
+      setPlayAnimation(true);
+    };
+
+    if (document.readyState === 'complete') {
+      onPageLoad();
+    } else {
+      window.addEventListener('load', onPageLoad);
+      return () => window.removeEventListener('load', onPageLoad);
+    }
+  }, []);
+  
 
   return (
     
     <header className={styles.header} >
 
+      <PageTransition playAnimation={playAnimation} />
       <Navbar link="GITHUB" href="https://github.com" textColor="black" />
       
       <div className={styles.container}>

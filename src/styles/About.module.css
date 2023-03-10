@@ -11,9 +11,8 @@
     margin-right: 10rem;
     width: 55vw;
     padding-top: 5rem;
-}
-.container:nth-child(4){
-    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -36,7 +35,7 @@
     padding: 0.5rem 0 0.5rem 1rem;
     font-size: 1rem;
     font-family: 'Niramit', sans-serif;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 
 .contentTitle {

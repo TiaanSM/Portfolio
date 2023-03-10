@@ -1,13 +1,32 @@
 import styles from '../styles/Contact.module.css'
 
 import Navbar from '../components/Navbar'
+import PageTransitionLight from '../components/PageTransitionLight';
+
+import { useState, useEffect } from 'react';
 
 const Contact = () => {
 
+  const [playAnimation, setPlayAnimation] = useState(false)
+  
+  useEffect(() => {
+
+    const onPageLoad = () => {
+      setPlayAnimation(true);
+    };
+
+    if (document.readyState === 'complete') {
+      onPageLoad();
+    } else {
+      window.addEventListener('load', onPageLoad);
+      return () => window.removeEventListener('load', onPageLoad);
+    }
+  }, []);
+
   return (
     <section className={styles.section}>
-      <div className={styles.cover}></div>
-
+      
+      <PageTransitionLight playAnimation={playAnimation} />
       <Navbar link="HOME" href="/" textColor="#ecead3" />
 
         <h4 className={styles.title}>Hello.</h4>

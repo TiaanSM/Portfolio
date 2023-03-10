@@ -1,13 +1,32 @@
 import styles from '../styles/Work.module.css'
 
 import Navbar from '../components/Navbar'
+import PageTransitionLight from '../components/PageTransitionLight'
 
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 const Work = () => {
+
+    const [playAnimation, setPlayAnimation] = useState(false)
+  
+    useEffect(() => {
+
+    const onPageLoad = () => {
+      setPlayAnimation(true);
+    };
+
+    if (document.readyState === 'complete') {
+      onPageLoad();
+    } else {
+      window.addEventListener('load', onPageLoad);
+      return () => window.removeEventListener('load', onPageLoad);
+    }
+    }, []);
+
   return (
     <section className={styles.section}>
 
+        <PageTransitionLight playAnimation={playAnimation} />
         <Navbar link="HOME" href="/" textColor="#ecead3" />
 
         <div className={styles.descContainer}>
