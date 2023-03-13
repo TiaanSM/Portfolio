@@ -3,30 +3,12 @@ import styles from '../styles/Work.module.css'
 import Navbar from '../components/Navbar'
 import PageTransitionLight from '../components/PageTransitionLight'
 
-import { useState, useEffect } from 'react';
-
 const Work = () => {
-
-    const [playAnimation, setPlayAnimation] = useState(false)
-  
-    useEffect(() => {
-
-    const onPageLoad = () => {
-      setPlayAnimation(true);
-    };
-
-    if (document.readyState === 'complete') {
-      onPageLoad();
-    } else {
-      window.addEventListener('load', onPageLoad);
-      return () => window.removeEventListener('load', onPageLoad);
-    }
-    }, []);
 
   return (
     <section className={styles.section}>
 
-        <PageTransitionLight playAnimation={playAnimation} />
+        <PageTransitionLight />
         <Navbar link="HOME" href="/" textColor="#ecead3" />
 
         <div className={styles.descContainer}>
@@ -45,17 +27,17 @@ const Work = () => {
         <div className={styles.projectContainer}>
 
             <div className={styles.project}>
-                <a href="" target="_blank" className={styles.projectName}>STUDIO ZAA</a>
+                <a href="https://studio-zaa.netlify.app" target="_blank" className={styles.projectName}>STUDIO ZAA</a>
                 <p className={styles.projectRoles}>- Website development.</p>
             </div>
 
             <div className={styles.project}>
-                <a href="" target="_blank" className={styles.projectName}>JAKES BAR-B-Q</a>
+                <a href="https://jakes-bar-b-q.netlify.app" target="_blank" className={styles.projectName}>JAKES BAR-B-Q</a>
                 <p className={styles.projectRoles}>- Website development.</p>
             </div>
 
             <div className={styles.project}>
-                <a href="" target="_blank" className={styles.projectName}>LIGHTHOUSE</a>
+                <a href="https://light-house-landingpage.netlify.app" target="_blank" className={styles.projectName}>LIGHTHOUSE</a>
                 <p className={styles.projectRoles}>- Landing page development.</p>
             </div>
 

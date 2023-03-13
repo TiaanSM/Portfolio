@@ -3,32 +3,15 @@ import styles from '../styles/About.module.css'
 import Navbar from '../components/Navbar'
 import PageTransition from '../components/PageTransition';
 
-import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const About = () => {
-
-  const [playAnimation, setPlayAnimation] = useState(false)
-  
-  useEffect(() => {
-
-    const onPageLoad = () => {
-      setPlayAnimation(true);
-    };
-
-    if (document.readyState === 'complete') {
-      onPageLoad();
-    } else {
-      window.addEventListener('load', onPageLoad);
-      return () => window.removeEventListener('load', onPageLoad);
-    }
-  }, []);
 
   return (
 
     <main className={styles.main}>
 
-      <PageTransition playAnimation={playAnimation} />
+      <PageTransition />
       <Navbar link="HOME" href="/" textColor="black" />
 
         <div className={styles.container}>
@@ -75,7 +58,11 @@ const About = () => {
             <li className={styles.skill}>WORDPRESS</li>
             <li className={styles.skill}>ANIMATIONS & MOTION DESIGN</li>
           </ul>
+          
         </div>
+        <div className={styles.container}>
+            <a href="" className={styles.cvLink}>My CV</a>
+          </div>
 
         <div className={styles.container}>
           <h3 className={styles.contentTitle}>FINALLY</h3>
@@ -86,7 +73,9 @@ const About = () => {
             hard and help build websites and apps that are up to the highest standards with amazing UI's.
           </p>
         </div>
-
+        <div className={styles.container}>
+          <Link to="/contact" className={styles.contactLink}>Contact me</Link>
+        </div>
     </main>
 
   )

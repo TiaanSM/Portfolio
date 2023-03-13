@@ -5,14 +5,17 @@
     align-items: center;
     flex-direction: column;
     background-color: #ecead3;
+    overflow: hidden;
 }
 
 .container {
     margin-right: 10rem;
     width: 55vw;
-    padding-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 .title {
@@ -57,6 +60,26 @@
     font-family: 'Niramit', sans-serif;
 }
 
+.cvLink, .contactLink {
+    border-radius: 3rem;
+    height: 4rem;
+    width: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-decoration: none;
+    background-color: black;
+    font-size: 1.3rem;
+    transition: all 0.7s ease;
+}
+
+.cvLink:hover, .contactLink:hover {
+    width: 18rem;
+}
+
 @media (max-width: 800px) {
 
     .container {
@@ -91,5 +114,14 @@
 
     .skillList {
         grid-template-columns: 1fr;
+    }
+
+    .cvLink, .contactLink {
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .cvLink:hover, .contactLink:hover {
+        width: 100%;
     }
 }
