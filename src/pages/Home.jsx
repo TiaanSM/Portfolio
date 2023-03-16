@@ -12,7 +12,7 @@ const Home = () => {
     <header className={styles.header} >
 
       <PageTransition />
-      <Navbar link="GITHUB" href="https://github.com" textColor="black" />
+      <Navbar link="GITHUB" href="https://github.com/TiaanSM" textColor="black" />
       
       <div className={styles.container}>
 

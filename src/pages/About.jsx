@@ -2,6 +2,7 @@ import styles from '../styles/About.module.css'
 
 import Navbar from '../components/Navbar'
 import PageTransition from '../components/PageTransition';
+import CV from '../../public/Tiaan-Mcleod-CV.pdf'
 
 import { Link } from 'react-router-dom';
 
@@ -61,7 +62,7 @@ const About = () => {
           
         </div>
         <div className={styles.container}>
-            <a href="" className={styles.cvLink}>My CV</a>
+            <a href={CV} target="_blank" className={styles.cvLink}>My CV</a>
           </div>
 
         <div className={styles.container}>
