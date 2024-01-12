@@ -75,7 +75,7 @@
 
     .section {
         flex-direction: column;
-        height: 100%;
+        height: 100vh;
     }
 
     .descContainer {
@@ -88,7 +88,6 @@
     .projectContainer {
         width: 100vw;
         padding-inline: clamp(1.2rem, -1.0799999999999998rem + 12.16vw, 5rem);
-        padding-bottom: 6rem;
     }
 
     .projectName {
