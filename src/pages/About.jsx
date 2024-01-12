@@ -23,21 +23,24 @@ const About = () => {
             The moment I fell in love with frontend development was when I discovered the Awwwards websites. 
             Their creative designs, user-friendly interfaces, and stunning animations captured my 
             attention and sparked a passion for developing websites that are both visually appealing 
-            and highly functional. My projects designs are from some of the winning awwward websites.
+            and highly functional. My projects designs are inspired by some of the winning awwward websites.
           </p>
 
           <p className={styles.desc}>
-            I started my journey by learning the fundamentals of the web. I then moved on to start building
+            I started my journey by learning the fundamentals of web development. I then moved on to start building
             websites with HTML, CCS and Javascript. When I felt confident in building websites with these 
-            technologies I dove deeper into Javascript and it's frameworks. I liked the way react was used to 
-            build web apps and continued building with it. I am currently buidling an Next Js application and
-            plan to learn react native in the future to build mobile applications.    
+            technologies I dove deeper into Javascript and it's frameworks. I learned ReactJs to understand why
+            we build websites using these libraries and frameworks. My strong foundation in ReactJs enabled me to quickly
+            jump into other frameworks like VueJs and Astro Build since the biggest deifference between them is the syntax
+            and project Architecture.     
           </p>
 
           <p className={styles.desc}>
             I always strive to learn and improve and my goal is to become the best at what I do.
-            I am looking for an opportunity to achieve this goal by learning from more experienced teams
-            and by teaching others what I know, which is of course the best way to learn.
+            I am looking for an opportunity to achieve this goal by learning from more experienced teams.
+            With every new project I ensure that there is something new to learn and increase the design complexity
+            to improve my problem solving skills. My strong foundation in the basics and frameworks enables me to quickly
+            learn new required languages, frameworks and tools.
           </p>
         </div>
 
@@ -71,9 +74,9 @@ const About = () => {
           <h3 className={styles.contentTitle}>FINALLY</h3>
           <p className={styles.desc}>
             I have learned a lot from building my projects by myself, but I also know that they can be better
-            especially when working with a great team. Working toghether with others on projects will 
-            help me improve faster and provide the company with a dedicated learner that will strive to work
-            hard and help build websites and apps that are up to the highest standards with amazing UI's.
+            especially when working with a great team. My passion for web development is the driving force I use to 
+            learn and work on creating websites. If given the chance I will do everything that is required me for to break into
+            the industry and produce results that shows my hard work and strive to become a great web developer.
           </p>
         </div>
         <div className={styles.container}>

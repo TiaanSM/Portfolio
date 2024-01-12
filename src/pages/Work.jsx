@@ -14,13 +14,13 @@ const Work = () => {
         <div className={styles.descContainer}>
             <h2 className={styles.heading}>WORK</h2>
             <p className={styles.desc}>
-                This is a showcase of projects that I have recently completed, they are 
+                This is a showcase of projects that I have completed, they are 
                 examples of what I am able to do in the timeframe I set to complete them.
             </p>
             <p className={styles.desc}>
-                The world of frontend development has grown at an extremely rapid rate over the
-                last few years and my aim had been to evolve with it. I'm learning and gaining new skills
-                every day.
+                These projects helped me learn new technologies and from the mistakes that I made.
+                The projects were used to help me learn ReactJs, Basic Web Design, Google Analytics, Form and email 
+                systems and much more.
             </p>
         </div>
 
