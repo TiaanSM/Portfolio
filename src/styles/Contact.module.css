@@ -61,6 +61,7 @@
 
     .section {
         padding-left: clamp(1.2rem, -1.3800000000000001rem + 13.76vw, 5.5rem);
+        height: 100vh;
     }
 
     .formText {
