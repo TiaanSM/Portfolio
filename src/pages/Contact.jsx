@@ -19,12 +19,11 @@ const Contact = () => {
         </p>
 
         <span className={styles.emailText}>
-          Email: <a href="mailto: tiaansm@outlook.com">tiaansm@outlook.com</a>
+          Email: <a href="mailto:tiaansm22@gmail.com">tiaansm22@gmail.com</a>
         </span>
 
         <span className={styles.linksText}>
-          On the internet: <a href="https://github.com/TiaanSM" target="_blank">github</a> / 
-          <a href="https://linkedin.com/in/tiaan-mcleod-365044258" target="_blank">linkedin</a>
+          Phone: <a href="tel:+27649350553" target="_blank">+27 64 935 0553</a>
         </span>
 
     </section>

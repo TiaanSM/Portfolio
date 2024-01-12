@@ -74,7 +74,7 @@ const Navbar = (props) => {
   return (
 
     <nav className={styles.navbar}>
-        <span style={isMobile ? copyrightSmall : copyrightStyles}>&copy; / 2023</span>
+        <span style={isMobile ? copyrightSmall : copyrightStyles}>&copy; / 2024</span>
         <div style={isMobile ? lineSmall : lineStyles}></div>
         <a href={props.href} style={isMobile ? linkSmall : linkStyles}>{props.link}</a>
     </nav>

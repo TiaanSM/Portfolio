@@ -27,18 +27,13 @@ const Work = () => {
         <div className={styles.projectContainer}>
 
             <div className={styles.project}>
+                <a href="https://tiptoe.media" target="_blank" className={styles.projectName}>TIPTOE MEDIA</a>
+                <p className={styles.projectRoles}>- Website development - 2023 / 08</p>
+            </div>
+
+            <div className={styles.project}>
                 <a href="https://studio-zaa.netlify.app" target="_blank" className={styles.projectName}>STUDIO ZAA</a>
-                <p className={styles.projectRoles}>- Website development.</p>
-            </div>
-
-            <div className={styles.project}>
-                <a href="https://jakes-bar-b-q.netlify.app" target="_blank" className={styles.projectName}>JAKES BAR-B-Q</a>
-                <p className={styles.projectRoles}>- Website development.</p>
-            </div>
-
-            <div className={styles.project}>
-                <a href="https://light-house-landingpage.netlify.app" target="_blank" className={styles.projectName}>LIGHTHOUSE</a>
-                <p className={styles.projectRoles}>- Landing page development.</p>
+                <p className={styles.projectRoles}>- Website development - 2023 / 01</p>
             </div>
 
         </div>

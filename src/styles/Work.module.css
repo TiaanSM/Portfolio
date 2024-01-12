@@ -75,13 +75,14 @@
 
     .section {
         flex-direction: column;
-        height: auto;
+        height: 100%;
     }
 
     .descContainer {
         width: 100vw;
-        padding-top: 12rem;
+        padding-top: 9rem;
         padding-inline: clamp(1.2rem, -1.0799999999999998rem + 12.16vw, 5rem);
+        padding-bottom: 4rem;
     }
 
     .projectContainer {

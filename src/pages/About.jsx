@@ -2,7 +2,7 @@ import styles from '../styles/About.module.css'
 
 import Navbar from '../components/Navbar'
 import PageTransition from '../components/PageTransition';
-import CV from '../../public/Tiaan-Mcleod-CV.pdf'
+import CV from '../assets/Tiaan Mcleod - CV.pdf'
 
 import { Link } from 'react-router-dom';
 
@@ -44,20 +44,22 @@ const About = () => {
         <div className={styles.container}>
           <h3 className={styles.contentTitle}>SKILLS</h3>
           <ul className={styles.skillList}>
-            <li className={styles.skill}>SEMANTIC HTML</li>
-            <li className={styles.skill}>CSS</li>
+            <li className={styles.skill}>HTML5</li>
+            <li className={styles.skill}>CSS3</li>
             <li className={styles.skill}>JAVASCRIPT</li>
             <li className={styles.skill}>REACT JS</li>
+            <li className={styles.skill}>VUE JS</li>
+            <li className={styles.skill}>ASTRO BUILD</li>
+            <li className={styles.skill}>SVELTE</li>
             <li className={styles.skill}>TAILWIND CSS</li>
             <li className={styles.skill}>STYLED COMPONENTS</li>
             <li className={styles.skill}>SCSS</li>
             <li className={styles.skill}>BOOTSTRAP</li>
+            <li className={styles.skill}>REST API</li>
+            <li className={styles.skill}>WEB OPTOMIZATION</li>
+            <li className={styles.skill}>GIT</li>
             <li className={styles.skill}>FIGMA</li>
-            <li className={styles.skill}>SEO OPTOMIZATION</li>
             <li className={styles.skill}>RESPONSIVE DESIGN</li>
-            <li className={styles.skill}>FUNCTIONAL PROGRAMMING</li>
-            <li className={styles.skill}>WORDPRESS</li>
-            <li className={styles.skill}>ANIMATIONS & MOTION DESIGN</li>
           </ul>
           
         </div>
